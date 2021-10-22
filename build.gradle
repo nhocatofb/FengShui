@@ -101,6 +101,6 @@ project(":core") {
         api "com.badlogicgames.ashley:ashley:$ashleyVersion"
         api "com.badlogicgames.gdx:gdx-ai:$aiVersion"
         api "com.badlogicgames.gdx:gdx-freetype:$gdxVersion"
-        
+        implementation fileTree(dir: 'libs', include: '*.jar')
     }
 }
